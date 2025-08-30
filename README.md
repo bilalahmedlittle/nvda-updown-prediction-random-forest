@@ -9,7 +9,7 @@ It follows these clear steps:
 - Add features to data [Link Text](NVDA_rf.ipynb#adding-basic-features-to-the-dataset-to-use-in-our-ML-models)
 - Feature engineering via:
   1) Correlation Analysis, Permutation Importance, SHAP Analysis [Link Text](NVDA_rf.ipynb#feature-importance-analysis)
-  2) Forward Selection [Link Text](NVDA_rf.ipynb#forward-selection)
+  2) Forward Selection [Link Text](NVDA_rf.ipynb#Forward-Selection)
 - Hyperparameter tuning [Link Text](NVDA_rf.ipynb#hyperparameter-tuning)
 
 ---
