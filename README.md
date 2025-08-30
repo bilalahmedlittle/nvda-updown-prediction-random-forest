@@ -8,13 +8,15 @@ It follows these clear steps:
 - Import data
 - Add features to data [Link Text](NVDA_rf.ipynb#adding-basic-features-to-the-dataset-to-use-in-our-ML-models)
 - Feature engineering via:
-  1) Correlation Analysis, Permutation Importance, SHAP Analysis
-  2) Forward Selection
-- Hyperparameter tuning
+  1) Correlation Analysis, Permutation Importance, SHAP Analysis [Link Text](NVDA_rf.ipynb#feature-importance-analysis)
+  2) Forward Selection [Link Text](NVDA_rf.ipynb#forward-selection)
+- Hyperparameter tuning [Link Text](NVDA_rf.ipynb#hyperparameter-tuning)
 
 ---
 
-### Results
+### Results 
+[Link Text](NVDA_rf.ipynb#results)
+
 Our final model produced these results:
   'Mean train accuracy: 0.6901
    Mean validation accuracy: 0.5300
