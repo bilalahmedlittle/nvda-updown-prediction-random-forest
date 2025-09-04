@@ -6,7 +6,7 @@ This is a short project with the main purpose of experimenting with different st
 It follows these clear steps:
 
 - Import data
-- Add features to data [Link Text](NVDA_rf.ipynb#adding-features)
+- Add features to data [Link Text](NVDA_rf.ipynb#cell-2)
 - Feature engineering via:
   1) Correlation Analysis, Permutation Importance, SHAP Analysis [Link Text](NVDA_rf.ipynb#Feature-Importance-Analysis)
   2) Forward Selection [Link Text](NVDA_rf.ipynb#Forward-Selection)
