@@ -6,25 +6,25 @@ This is a short project with the main purpose of experimenting with different st
 It follows these clear steps:
 
 - Import data
-- Add features to data [Link Text](NVDA_rf.ipynb#cell-2)
-- Feature engineering via:
-  1) Correlation Analysis, Permutation Importance, SHAP Analysis [Link Text](NVDA_rf.ipynb#Feature-Importance-Analysis)
-  2) Forward Selection [Link Text](NVDA_rf.ipynb#Forward-Selection)
-- Hyperparameter tuning [Link Text](NVDA_rf.ipynb#hyperparameter-tuning)
+- Add features to data (Cell 2-5)
+- Feature engineering via: 
+  1) Correlation Analysis, Permutation Importance, SHAP Analysis (Cell 6-10)
+  2) Forward Selection (Cell 11-12)
+- Hyperparameter tuning (Cell 13)
 
 ---
 
 ### Results 
-[Link Text](NVDA_rf.ipynb#results)
+(Cell 14)
 
 Our final model produced these results:
-  'Mean train accuracy: 0.6901
-   Mean validation accuracy: 0.5300
-   Std validation accuracy: 0.0308'
+  Mean train accuracy: 0.6443
+  Mean validation accuracy: 0.5410
+  Std validation accuracy: 0.0202
 
 And as stated in the summary in our notebook:
     
-  Our model achieved a 53.00% up/down accuracy, which is sufficiently above randomness to suggest it is not merely producing noise and could form the basis of a profitable trading strategy with the right infrastructure. There is also roughly a 16% gap between training and validation accuracy, which is acceptable and significantly lower than our original figures.
+  Our model achieved a 53.10% up/down accuracy, which is sufficiently above randomness to suggest it is not merely producing noise and could form the basis of a profitable trading strategy with the right infrastructure. There is also roughly a 10% gap between training and validation accuracy, which is acceptable and significantly lower than our original figures.
 
 ### Improvements for the next NVDA project *( details above)*:
 - Add more features, particularly market features and regime indicators
