@@ -24,10 +24,7 @@ Our final model produced these results:
 
 And as stated in the summary in our notebook:
     
-  Our model achieved a 53.10% up/down accuracy, which is sufficiently above randomness to suggest it is not merely producing noise and could form the basis of a profitable trading strategy with the right infrastructure. There is also roughly a 10% gap between training and validation accuracy, which is acceptable and significantly lower than our original figures.
-
-### Improvements for the next NVDA project *( details above)*:
-- Add more features, particularly market features and regime indicators
+  Our model achieved a 54.10% up/down accuracy, which is sufficiently above randomness to suggest it is not merely producing noise and could form the basis of a profitable trading strategy with the right infrastructure. There is also roughly a 10% gap between training and validation accuracy, which is acceptable and significantly lower than our original figures.
 - Create a reusable model training function to improve code quality
 - Add visuals for model performance evaluation
 - Possibly avoid permutation importance / SHAP analysis due to incompatibility; instead, move straight to forward/backward selection after initial feature trimming
